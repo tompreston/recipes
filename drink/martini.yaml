@@ -1,0 +1,29 @@
+recipe_name: Martini
+ingredients:
+  - gin:
+      amounts:
+        - amount: 3
+          unit: parts
+        - amount: 37.5
+          unit: ml
+  - vermouth:
+      amounts:
+        - amount: 2
+          unit: parts
+        - amount: 25
+          unit: ml
+  - olive:
+      amounts:
+        - amount: 1
+      notes:
+        - Traditionally an olive, but subtitute with lemon, pickled onion,
+          or whatever.
+steps:
+  - step: Cool glass.
+  - step: Mix gin and vermouth in ice.
+  - step: Strain into glass.
+  - step: Garnish.
+notes:
+  - Needs to be ice cold. Just mix and serve it with ice if you're feeling lazy.
+  - Adjust the quantities to taste, this is just how I like it.
+    Traditionally 6 parts gin and 1 part vermouth (eurgh!).
