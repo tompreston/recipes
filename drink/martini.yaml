@@ -15,6 +15,7 @@ ingredients:
   - olive:
       amounts:
         - amount: 1
+          unit: whole
       notes:
         - Traditionally an olive, but subtitute with lemon, pickled onion,
           or whatever.

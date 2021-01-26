@@ -19,6 +19,7 @@ ingredients:
   - egg:
       amounts:
         - amount: 3
+          unit: whole
   - spaghetti:
       amounts:
         - amount: 350
@@ -26,6 +27,7 @@ ingredients:
   - garlic clove:
       amounts:
         - amount: 2
+          unit: whole
       notes:
         - Peeled and squashed.
   - butter:
