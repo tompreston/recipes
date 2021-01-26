@@ -1,0 +1,78 @@
+recipe_name: Pork Ramen
+source_url: https://www.theflavorbender.com/easy-pork-ramen/
+yields:
+  - amount: 4
+  - unit: people
+oven_temp:
+  - amount: 180
+    unit: C
+oven_time: 30
+ingredients:
+  - pork tenderloin:
+      amounts:
+        - amount: 1
+          unit: kg
+      notes:
+        - Season with garlic cloves (one per person), 1 tsp salt and 1 tbsp
+          pepper. Ideally an hour before or overnight.
+  - ramen noodles:
+      amounts:
+        - amount: 4
+          unit: portion
+  - egg:
+      amounts:
+        - amount: 2
+          unit: whole
+      notes:
+        - Boiled. Try to keep the yolks runny. Simmer for 6 mins, then into ice.
+  - beef stock:
+      amounts:
+        - amount: 1
+          unit: litre
+  - ginger:
+      amounts:
+        - amount: 2
+          unit: slice
+  - garlic:
+      amounts:
+        - amount: 5
+          unit: clove
+  - spring onion:
+      amounts:
+        - amount: 2
+          unit: whole
+  - mushrooms:
+      amounts:
+        - amount: 100
+          unit: g
+      notes:
+        - Ideally shiitake, but you can use anything else.
+  - boy choy:
+      amounts:
+        - amount: 4
+          unit: stalk
+      notes:
+        - Spinach will do in a pinch.
+  - chili flakes:
+      amounts:
+        - amount: 0.5
+          unit: tbsp
+   - soy sauce:
+      amounts:
+        - amount: 2
+          unit: tbsp
+steps:
+  - step: Season and marinate the pork for an hour or overnight.
+    notes:
+      - Or use it straight away if you're in a hurry.
+  - step: Roast the pork.
+  - step: Boil everything else. Save the greens and noodles for the end.
+  - step: Boil the eggs, then peel. Halve.
+  - step:
+      When the pork is done, rest it. Add greens and noodles to the broth.
+      Simmer for a bit.
+  - step:
+      Slice the pork, divide the noodles into bowls. Arrange and serve.
+notes:
+  - This is just a general method. You can be change the ingredients and their
+    quantities.
