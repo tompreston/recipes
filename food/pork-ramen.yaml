@@ -63,12 +63,16 @@ ingredients:
         - amount: 2
           unit: tbsp
 steps:
-  - step: Season and marinate the pork for an hour or overnight.
+  - step:
+      Season and marinate the pork for an hour or overnight.
     notes:
       - Or use it straight away if you're in a hurry.
-  - step: Roast the pork.
-  - step: Simmer everything else. Save the greens and noodles for the end.
-  - step: Low boil the eggs, then peel. Halve.
+  - step:
+      Roast the pork.
+  - step:
+      Simmer everything else with a lid. Save greens and noodles for the end.
+  - step:
+      Low boil the eggs, then peel. Halve.
   - step:
       When the pork is done, rest it. Add greens and noodles to the broth.
       Simmer for a bit.
