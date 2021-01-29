@@ -28,8 +28,10 @@ ingredients:
           ice until cool (>= 10 mins).
   - beef stock:
       amounts:
-        - amount: 1
+        - amount: 1.5
           unit: litre
+      notes:
+        - 1 litre was too little stock. Try with 1.5 next time.
   - ginger:
       amounts:
         - amount: 2
@@ -48,7 +50,7 @@ ingredients:
           unit: g
       notes:
         - Ideally shiitake, but you can use anything else.
-  - boy choy:
+  - bok choy:
       amounts:
         - amount: 4
           unit: stalk
