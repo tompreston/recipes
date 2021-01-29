@@ -24,7 +24,8 @@ ingredients:
         - amount: 2
           unit: whole
       notes:
-        - Boiled. Try to keep the yolks runny. Simmer for 6 mins, then into ice.
+        - Boiled. Try to keep the yolks runny. Simmer for 6.5 mins, then into
+          ice until cool (>= 10 mins).
   - beef stock:
       amounts:
         - amount: 1
