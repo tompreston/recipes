@@ -1,0 +1,32 @@
+recipe_name: Boiled Rice
+recipe_author: Gordon Ramsey
+recipe_url: https://youtu.be/Jf75I9LKhvg
+ingredients:
+  - basmati rice:
+      amounts:
+        - amount: 400
+          unit: g
+  - water:
+      amounts:
+        - amount: 600
+          unit: ml
+      notes:
+        - It's 2:3 rice to water.
+  - cardamon pods:
+      amounts:
+        - amount: 3
+          unit: pods
+        notes:
+          - Pinch to pierce.
+  - star anise:
+      amounts:
+        - amount: 2
+          unit: whole
+steps:
+  - step: Rince the rice in a sieve to remove the starch, then add to a pot.
+  - step: Season with cardamon pods, star anise, salt and pepper.
+  - step: Add cold water and cover.
+  - step: Bring to boil asap, then simmer for 8 minutes.
+    notes:
+      - Do not remove the lid, the trick is to steam the rice.
+  - step: Remove the heat, cardamon pods and star anise. Fluff with a fork.
