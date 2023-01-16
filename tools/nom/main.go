@@ -5,6 +5,7 @@ import (
 	"io"
 	"log"
 	"os"
+	"strings"
 	"text/template"
 
 	"gopkg.in/yaml.v2"
@@ -15,14 +16,22 @@ type Step struct {
 	Notes []string `yaml:"notes"`
 }
 
+func (s *Step) String() string {
+	return appendNotes(s.Step, s.Notes)
+}
+
 type Amount struct {
 	Amount float64 `yaml:"amount"`
 	Unit   string  `yaml:"unit"`
 }
 
+func (a *Amount) String() string {
+	return fmt.Sprintf("%v %v", a.Amount, a.Unit)
+}
+
 type Ingredient struct {
-	Amounts []map[string]Amount `yaml:"amount"`
-	Notes   []string            `yaml:"notes"`
+	Amounts []Amount `yaml:"amounts"`
+	Notes   []string `yaml:"notes"`
 }
 
 type Recipe struct {
@@ -47,10 +56,34 @@ func NewRecipeFromFilename(filename string) (*Recipe, error) {
 	return o, nil
 }
 
-func renderRecipeMarkdown(w io.Writer, r *Recipe) error {
-	tmpl := template.New("recipe_template.md")
+func appendNotes(prefix string, notes []string) string {
+	if len(notes) <= 0 {
+		return prefix
+	}
+	notesJoined := strings.Join(notes, " ")
+	return fmt.Sprintf("%v (%v)", prefix, notesJoined)
+}
 
-	tmpl, err := tmpl.ParseFiles("./recipe_template.md")
+// printIngredient prints OpenRecipeFormat Ingredient structs because the name isn't stored
+func printIngredient(name string, i Ingredient) string {
+	amounts := []string{}
+	for _, a := range i.Amounts {
+		amounts = append(amounts, a.String())
+	}
+	amountsJoined := strings.Join(amounts, " / ")
+	output := fmt.Sprintf("%v %v", amountsJoined, name)
+	output = appendNotes(output, i.Notes)
+	return output
+}
+
+func renderRecipeMarkdown(w io.Writer, r *Recipe) error {
+	tmpl := template.New("recipe.md")
+
+	tmpl = tmpl.Funcs(template.FuncMap{
+		"printIngredient": printIngredient,
+	})
+
+	tmpl, err := tmpl.ParseFiles("./templates/recipe.md")
 	if err != nil {
 		return err
 	}

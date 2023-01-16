@@ -1,0 +1,61 @@
+recipe_name: Spaghetti Carbonara
+notes:
+  - The trick is to avoid scrambling the eggs and using the pasta water to keep
+    it saucy.
+ingredients:
+  - pancetta:
+      amounts:
+        - amount: 100
+          unit: g
+      notes:
+        - Bacon works too
+  - parmesan:
+      amounts:
+        - amount: 50
+          unit: g
+        - amount: 100
+          unit: g
+  - pecorino:
+      amounts:
+        - amount: 50
+          unit: g
+  - eggs:
+      amounts:
+        - amount: 3
+          unit: whole
+  - spaghetti:
+      amounts:
+        - amount: 350
+          unit: g
+  - garlic clove:
+      amounts:
+        - amount: 2
+          unit: whole
+      notes:
+        - Peeled and squashed
+  - butter:
+      amounts:
+        - amount: 50
+          unit: g
+steps:
+  - step: Boil water.
+  - step: Finely chop the pancetta.
+  - step: Grate and mix cheeses.
+  - step: Beat the eggs and season with grated black pepper.
+  - step: Boil spaghetti until al dente (10 mins).
+    notes:
+      - Season by adding 1 tsp salt to water first
+  - step:
+      Fry butter, pancetta and squashed garlic cloves, until golden (5 mins).
+      Then remove the garlic.
+  - step: Turn off the heat.
+  - step:
+      Scoop the spaghetti into the pan with a bit of the hot pasta water. Save
+      the rest of the water.
+  - step:
+      Mix most of the cheese in with the eggs, keeping a small handful back for
+      sprinkling over later.
+  - step: Pour in the eggs and cheese and mix. Don't scramble the eggs.
+  - step: Add pasta water to keep it saucy (a few tablespoons will do).
+  - step: Season with salt and pepper.
+  - step: Twist onto plates to serve. Season with salt, pepper, cheese.
