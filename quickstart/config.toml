@@ -1,0 +1,7 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-gb'
+title = 'recipes'
+theme = 'ananke'
+
+[params]
+background_color_class = "black bg-navy"
