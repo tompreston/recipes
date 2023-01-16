@@ -1,6 +1,7 @@
 package main
 
 import (
+	_ "embed"
 	"fmt"
 	"io"
 	"log"
@@ -76,6 +77,9 @@ func printIngredient(name string, i Ingredient) string {
 	return output
 }
 
+//go:embed templates/recipe.md
+var recipeTemplate string
+
 func renderRecipeMarkdown(w io.Writer, r *Recipe) error {
 	tmpl := template.New("recipe.md")
 
@@ -83,7 +87,7 @@ func renderRecipeMarkdown(w io.Writer, r *Recipe) error {
 		"printIngredient": printIngredient,
 	})
 
-	tmpl, err := tmpl.ParseFiles("./templates/recipe.md")
+	tmpl, err := tmpl.Parse(recipeTemplate)
 	if err != nil {
 		return err
 	}
