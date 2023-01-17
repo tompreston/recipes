@@ -60,7 +60,7 @@ ingredients:
       amounts:
         - amount: 0.5
           unit: tbsp
-   - soy sauce:
+  - soy sauce:
       amounts:
         - amount: 2
           unit: tbsp

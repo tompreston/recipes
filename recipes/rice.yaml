@@ -16,7 +16,7 @@ ingredients:
       amounts:
         - amount: 3
           unit: pods
-        notes:
+      notes:
           - Pinch to pierce.
   - star anise:
       amounts:
