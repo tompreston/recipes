@@ -1,2 +1,2 @@
 # Food and Drink Recipes
-Using [Open Recipe Format](https://open-recipe-format.readthedocs.io/en/latest/).
+Using [Open Recipe Format](https://open-recipe-format.readthedocs.io/en/latest/) and Hugo.
