@@ -2,11 +2,6 @@
 title: "{{ .RecipeName }}"
 ---
 
-## Notes
-{{ range $i, $note := .Notes -}}
-* {{ $note }}
-{{- end }}
-
 ## Ingredients
 {{ range $i, $ingredientMap := .Ingredients -}}
 {{ range $name, $ingredient := $ingredientMap -}}
@@ -16,4 +11,8 @@ title: "{{ .RecipeName }}"
 ## Steps
 {{ range $i, $step := .Steps -}}
 * {{ $step }}
-{{ end -}}
+{{ end }}
+## Notes
+{{ range $i, $note := .Notes -}}
+* {{ $note }}
+{{- end }}
