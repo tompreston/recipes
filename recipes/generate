@@ -4,5 +4,5 @@ while IFS= read -r recipe; do
 	base="$(basename "$recipe")"
 	dest="content/posts/${base%.yaml}.md"
 	echo "$recipe -> $dest"
-	~/go/bin/nom "$recipe" > "$dest"
+	nom "$recipe" > "$dest"
 done < <(find recipes -name *.yaml)
