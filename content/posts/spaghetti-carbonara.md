@@ -2,9 +2,6 @@
 title: "Spaghetti Carbonara"
 ---
 
-## Notes
-* The trick is to avoid scrambling the eggs and using the pasta water to keep it saucy.
-
 ## Ingredients
 * 100 g pancetta (Bacon works too.)
 * 50 g / 100 g parmesan
@@ -28,3 +25,6 @@ title: "Spaghetti Carbonara"
 * Add pasta water to keep it saucy (a few tablespoons will do).
 * Season with salt and pepper.
 * Twist onto plates to serve. Season with salt, pepper, cheese.
+
+## Notes
+* The trick is to avoid scrambling the eggs and using the pasta water to keep it saucy.
