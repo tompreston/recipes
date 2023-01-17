@@ -2,9 +2,6 @@
 title: "Boiled Rice"
 ---
 
-## Notes
-
-
 ## Ingredients
 * 400 g basmati rice
 * 600 ml water (It's 2:3 rice to water.)
@@ -17,3 +14,6 @@ title: "Boiled Rice"
 * Add cold water and cover.
 * Bring to boil asap, then simmer for 8 minutes. (Do not remove the lid, the trick is to steam the rice.)
 * Remove the heat, cardamon pods and star anise. Fluff with a fork.
+
+## Notes
+

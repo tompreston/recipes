@@ -2,9 +2,6 @@
 title: "Pork Ramen"
 ---
 
-## Notes
-* This is just a general method. You can be change the ingredients and their quantities.
-
 ## Ingredients
 * 1 kg pork tenderloin (Season with garlic cloves (one per person), 1 tsp salt and 1 tbsp pepper. Ideally an hour before or overnight.)
 * 4 portion ramen noodles
@@ -25,3 +22,6 @@ title: "Pork Ramen"
 * Low boil the eggs, then peel. Halve.
 * When the pork is done, rest it. Add greens and noodles to the broth. Simmer for a bit.
 * Slice the pork, divide the noodles into bowls. Arrange and serve.
+
+## Notes
+* This is just a general method. You can be change the ingredients and their quantities.
