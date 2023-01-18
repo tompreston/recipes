@@ -7,8 +7,11 @@ POSTS := \
 	${POSTS_DIR}/martini.md \
 	${POSTS_DIR}/rice.md
 
-.PHONY: all
+.PHONY: all clean
 all: ${POSTS}
 
 ${POSTS_DIR}/%.md: %.yaml
 	nom $^ > $@
+
+clean:
+	rm ${POSTS}
