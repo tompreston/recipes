@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# Generate the recipes
-while IFS= read -r recipe; do
-	base="$(basename "$recipe")"
-	dest="content/posts/${base%.yaml}.md"
-	printf "%40s -> %s\n" "$recipe" "$dest"
-	nom "$recipe" > "$dest"
-done < <(find recipes -name *.yaml)
