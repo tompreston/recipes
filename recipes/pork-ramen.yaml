@@ -14,7 +14,7 @@ ingredients:
           unit: kg
       notes:
         - Season with garlic cloves (one per person), 1 tsp salt and 1 tbsp
-          pepper. Ideally an hour before or overnight.
+          pepper. Ideally an hour before or overnight
   - ramen noodles:
       amounts:
         - amount: 4
@@ -25,13 +25,13 @@ ingredients:
           unit: whole
       notes:
         - Boiled. Try to keep the yolks runny. Simmer for 6.5 mins, then into
-          ice until cool (>= 10 mins).
+          ice until cool (>= 10 mins)
   - beef stock:
       amounts:
         - amount: 1.5
           unit: litre
       notes:
-        - 1 litre was too little stock. Try with 1.5 next time.
+        - 1 litre was too little stock. Try with 1.5 next time
   - ginger:
       amounts:
         - amount: 2
@@ -49,13 +49,13 @@ ingredients:
         - amount: 100
           unit: g
       notes:
-        - Ideally shiitake, but you can use anything else.
+        - Ideally shiitake, but you can use anything else
   - bok choy:
       amounts:
         - amount: 4
           unit: stalk
       notes:
-        - Spinach will do in a pinch.
+        - Spinach will do in a pinch
   - chili flakes:
       amounts:
         - amount: 0.5
@@ -66,20 +66,20 @@ ingredients:
           unit: tbsp
 steps:
   - step:
-      Season and marinate the pork for an hour or overnight.
+      Season and marinate the pork for an hour or overnight
     notes:
-      - Or use it straight away if you're in a hurry.
+      - Or use it straight away if you're in a hurry
   - step:
-      Roast the pork.
+      Roast the pork
   - step:
-      Simmer everything else with a lid. Save greens and noodles for the end.
+      Simmer everything else with a lid. Save greens and noodles for the end
   - step:
-      Low boil the eggs, then peel. Halve.
+      Low boil the eggs, then peel. Halve
   - step:
-      When the pork is done, rest it. Add greens and noodles to the broth.
-      Simmer for a bit.
+      When the pork is done, rest it. Add greens and noodles to the broth
+      Simmer for a bit
   - step:
-      Slice the pork, divide the noodles into bowls. Arrange and serve.
+      Slice the pork, divide the noodles into bowls. Arrange and serve
 notes:
   - This is just a general method. You can be change the ingredients and their
-    quantities.
+    quantities
