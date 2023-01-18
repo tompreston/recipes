@@ -12,7 +12,10 @@ title: "{{ .RecipeName }}"
 {{ range $i, $step := .Steps -}}
 * {{ $step }}
 {{ end }}
+
+{{- if len .Notes }}
 ## Notes
 {{ range $i, $note := .Notes -}}
 * {{ $note }}
 {{- end }}
+{{ end -}}
