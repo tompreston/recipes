@@ -1,0 +1,8 @@
+recipe_name: Spaghetti Carbonara
+ingredients:
+  - pancetta:
+      amounts:
+        - amount: 100
+          unit: g
+steps:
+  - step: Boil water.
