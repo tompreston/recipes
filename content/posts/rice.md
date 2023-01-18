@@ -14,6 +14,3 @@ title: "Boiled Rice"
 * Add cold water and cover
 * Bring to boil asap, then simmer for 8 minutes (Do not remove the lid, the trick is to steam the rice)
 * Remove the heat, cardamon pods and star anise. Fluff with a fork
-
-## Notes
-
