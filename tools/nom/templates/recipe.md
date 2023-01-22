@@ -17,5 +17,5 @@ title: "{{ .RecipeName }}"
 ## Notes
 {{ range $i, $note := .Notes -}}
 * {{ $note }}
-{{- end }}
+{{ end }}
 {{ end -}}
