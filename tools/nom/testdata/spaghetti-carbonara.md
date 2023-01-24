@@ -1,6 +1,11 @@
 ---
 title: "Spaghetti Carbonara"
+tags:
+- cheese
+- pasta
 ---
+
+2 servings
 
 ## Ingredients
 * 100 g pancetta (Bacon works too)

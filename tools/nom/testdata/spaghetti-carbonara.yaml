@@ -1,8 +1,10 @@
 recipe_name: Spaghetti Carbonara
-notes:
-  - The trick is to avoid scrambling the eggs and using the pasta water to keep
-    it saucy.
-  - Second note
+yields:
+  - amount: 2
+    unit: servings
+tags:
+  - cheese
+  - pasta
 ingredients:
   - pancetta:
       amounts:
@@ -60,3 +62,7 @@ steps:
   - step: Add pasta water to keep it saucy (a few tablespoons will do).
   - step: Season with salt and pepper.
   - step: Twist onto plates to serve. Season with salt, pepper, cheese.
+notes:
+  - The trick is to avoid scrambling the eggs and using the pasta water to keep
+    it saucy.
+  - Second note

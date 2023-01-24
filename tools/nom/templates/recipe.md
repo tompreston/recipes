@@ -1,7 +1,15 @@
 ---
 title: "{{ .RecipeName }}"
+{{ if len .Tags -}}
+tags:
+{{- range .Tags }}
+- {{ . }}
+{{- end }}
+{{ end -}}
 ---
-
+{{ range .Yields }}
+{{ .Amount }} {{ .Unit }}
+{{ end }}
 ## Ingredients
 {{ range $i, $ingredientMap := .Ingredients -}}
 {{ range $name, $ingredient := $ingredientMap -}}

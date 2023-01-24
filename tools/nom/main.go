@@ -37,6 +37,8 @@ type Ingredient struct {
 
 type Recipe struct {
 	RecipeName  string                  `yaml:"recipe_name"`
+	Yields      []Amount                `yaml:"yields"`
+	Tags        []string                `yaml:"tags"`
 	Ingredients []map[string]Ingredient `yaml:"ingredients"`
 	Steps       []Step                  `yaml:"steps"`
 	Notes       []string                `yaml:"notes"`
