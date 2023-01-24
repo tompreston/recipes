@@ -2,6 +2,10 @@
 title: "Pork Ramen"
 ---
 
+4 
+
+0 people
+
 ## Ingredients
 * 1 kg pork tenderloin (Season with garlic cloves (one per person), 1 tsp salt and 1 tbsp pepper. Ideally an hour before or overnight)
 * 4 portion ramen noodles
@@ -25,3 +29,4 @@ title: "Pork Ramen"
 
 ## Notes
 * This is just a general method. You can be change the ingredients and their quantities
+

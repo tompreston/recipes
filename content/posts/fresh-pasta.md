@@ -1,6 +1,10 @@
 ---
 title: "Fresh Pasta"
+tags:
+- pasta
 ---
+
+5 servings
 
 ## Ingredients
 * 250 g Semolina Flour

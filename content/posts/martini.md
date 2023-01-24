@@ -14,4 +14,6 @@ title: "Martini"
 * Garnish
 
 ## Notes
-* Needs to be ice cold. Just mix and serve it with ice if you're feeling lazy* I'm not really a Martini drinker. Adjust the quantities to taste, this is just how I liked it... once.  Traditionally 6 parts gin and 1 part vermouth (eurgh!)
+* Needs to be ice cold. Just mix and serve it with ice if you're feeling lazy
+* I'm not really a Martini drinker. Adjust the quantities to taste, this is just how I liked it... once.  Traditionally 6 parts gin and 1 part vermouth (eurgh!)
+

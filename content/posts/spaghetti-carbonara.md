@@ -1,6 +1,10 @@
 ---
 title: "Spaghetti Carbonara"
+tags:
+- pasta
 ---
+
+5 servings
 
 ## Ingredients
 * 100 g pancetta (Bacon works too)
@@ -28,3 +32,4 @@ title: "Spaghetti Carbonara"
 
 ## Notes
 * The trick is to avoid scrambling the eggs and using the pasta water to keep it saucy
+
