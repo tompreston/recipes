@@ -1,4 +1,9 @@
 recipe_name: Spaghetti Carbonara
+tags:
+  - pasta
+yields:
+  - amount: 5
+    unit: servings
 ingredients:
   - pancetta:
       amounts:

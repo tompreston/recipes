@@ -1,6 +1,6 @@
 recipe_name: Fresh Pasta
 tags:
-  - Pasta
+  - pasta
 yields:
   - amount: 5
     unit: servings
